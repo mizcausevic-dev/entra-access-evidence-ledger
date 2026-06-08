@@ -1,31 +1,47 @@
-# entra-access-evidence-ledger
+# Microsoft Entra ID Signal Brief
 
-Board-readable Kinetic Gain proof repo for **Microsoft Entra ID** signal coverage.
+Microsoft Entra ID Signal Brief turns Microsoft Entra ID operating evidence into board-ready exposure, savings, investment, and narrative decisions.
 
-## Signal lane
+## What it answers
 
-- Vendor / platform: Microsoft Entra ID
-- Domain: IAM / Security
-- Executive question: Where is this system creating exposure, waste, or decision latency?
-- Proof posture: synthetic fixture, deterministic CLI, static report, and CI gate.
+Can leadership explain where Microsoft Entra ID creates exposure, savings opportunity, investment priority, or board-visible execution risk?
 
-## Why this exists
+## Decision lanes
 
-Access evidence, conditional access posture, identity drift, and review readiness.
+- **Ownership Clarity** (68) — Ownership clarity needs a clearer owner, evidence packet, and board-readable remediation path. Next: Confirm one accountable owner and one board-readable evidence packet.
+- **Spend AND Exposure Posture** (74) — Spend and exposure posture needs a clearer owner, evidence packet, and board-readable remediation path. Next: Tie cost, access, or workflow exceptions to a remediation queue.
+- **Decision Readiness** (61) — Decision readiness needs a clearer owner, evidence packet, and board-readable remediation path. Next: Summarize whether to invest, consolidate, remediate, or monitor.
 
-This repo is intentionally small and explicit. It gives the portfolio atlas a named, inspectable proof artifact for Microsoft Entra ID without needing another hosted subdomain or exposing live customer data.
+## Operating workflow
+
+- **Ingest:** Collect Microsoft Entra ID operating evidence without exposing credentials or raw customer data.
+- **Score:** Translate exceptions into exposure, savings, investment, and narrative confidence lanes.
+- **Route:** Assign each lane to one accountable owner with a next action and review window.
+- **Package:** Produce a board-ready packet with decisions, tradeoffs, and proof links.
+
+## Board pack outputs
+
+- One-page IAM / Security decision brief
+- Microsoft Entra ID exposure and ownership map
+- Priority lane: Spend AND Exposure Posture
+- Savings, remediation, and investment narrative
+- Public-demo boundary and evidence-source notes
 
 ## Local run
 
-`ash
+```bash
 npm install
 npm test
 npm run build
-npm run demo
-`
+```
 
-## Security posture
+## Links
 
-- No secrets, tokens, customer records, or live API calls.
-- Fixture data is synthetic and stored in ixtures/sample.json.
-- Output is deterministic and safe for public portfolio inspection.
+- [Portfolio atlas](https://portfolio.kineticgain.com/)
+- [Kinetic Gain](https://kineticgain.com/)
+- [GitHub repo](https://github.com/mizcausevic-dev/entra-access-evidence-ledger)
+- [Microsoft Entra ID surface](https://entra.kineticgain.com/)
+
+## Public-demo boundary
+
+No production credentials, customer records, private contracts, or admin-console exports belong in this repo. Fixtures are synthetic and intended to prove the decision shape only.
